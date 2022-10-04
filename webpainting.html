@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    
+<title> Webpainting </title>    
+    <style>
+    
+        body{
+            
+            background-color: rgba(124,124,124,1);
+            
+        }
+        #container{
+            position: relative;
+            height: 800px;
+            width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgba(225,225,225,1)
+        }
+        
+        #train{
+            position:absolute;
+            height:600px;
+            width: 600px;
+            bottom: 0;
+            right: 0; 
+            z-index: 10; 
+        }
+        #flyhigh{
+            position: relative;
+            height: 50px;
+            width: 40px;
+            top: 30px;
+            left: 5%;
+            font-family:cursive;
+            font-size: 100px; 
+            color: rgba(255,0,150,.8);
+            z-index: 30;
+            
+        }
+         #plane{
+            position: absolute;
+            height: 260px;
+            width: 200px;
+            top: 30px;
+            left: 100px;
+            background-color: rgba(0,255,0,.7);
+            z-index: 10;
+            border-radius: 100px; 
+        }
+        #green{
+            position: absolute;
+            height: 500px;
+            width: 500px;
+            top: 300px;
+            left: 300px;
+            background-color: rgba(25,205,105,.7);
+            z-index: 30;
+            border-radius: 200px; 
+        }
+         #orange{
+            position: absolute;
+            height: 50px;
+            width: 1400px;
+            top: 30px;
+            left: 0px;
+            background-color: rgba(250,100,10,.7);
+            z-index: 40;
+            border-radius: 40px; 
+        }
+         #red{
+            position: absolute;
+            height: 800px;
+            width: 40px;
+            top: 0px;
+            left: 100px;
+            background-color: rgba(250,00,0,.7);
+            z-index: 40;
+            border-radius: 40px; 
+        }
+       
+    </style>
+    
+    </head>
+    
+<body>
+    
+    <div id="container">
+        
+        <img id="train" src="transportationart/Train.jpeg" alt="differet forms of transpertanion" width="1200px" height="800px">
+        <p id="flyhigh">Flight in Progress</p>
+        <div id="green">&nabla;</div>
+        <img id="plane"
+        src="transportationart/Plane.jpeg" alt="differet forms of transpertanion" width="1200px" height="800px">
+          <div id="orange">&nabla;</div>
+        <div id="red">&nabla;</div>
+        
+    </div>
+    
+</body>    
+
+</html>

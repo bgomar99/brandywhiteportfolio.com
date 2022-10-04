@@ -1,0 +1,144 @@
+    Body{
+        background-color:rgba(225,225,225,1);
+        font-family:sans-serif; 
+        }
+    h1{
+        
+        color:navy;
+        font-family:sans-serif;  
+        z-index: 10;
+        font-size: 30px;
+        }
+       
+    h2{
+        color: black;
+        font-family:monospace;
+        font-size: 25px;
+            
+                }
+    #aboutmepicture{
+    position: relative;
+    width: 25%;
+    float: right;
+    z-index: 40px;
+    }
+    
+    #paragraph{
+    position: relative;
+    float:left;
+    width:70%;
+    z-index: 30;
+    }
+
+    .curly{
+    font-family: cursive;
+    color:blue;
+    }
+
+    #brandywhite{
+		position: relative;
+        top: 100 px;
+        left: 50px;
+        z-index: 110; 
+		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+		font-size: 20px; 	
+		color: black
+		}
+
+    nav ul {
+    list-style-type: none;
+        padding: 0;
+        background-color: rgba(225,225,225,1);
+        height: 100%;
+    }
+    nav {
+        float: left;
+        width: 20%;
+    }
+
+    article {
+        float: right;
+        padding: 20px;
+        width: 80%;
+        background-color:rgba(250,225,120,2);
+        
+    }
+
+
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Style the header */
+    header {
+        background-color: rgba(75,75,75,1);
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: rgba(255,255,255,1);
+    }
+
+
+
+    article {
+  float: right;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+  z-index: 50;
+    
+}
+
+    /* Clear floats after the columns */
+    section::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Style the footer */
+    footer {
+  background-color: rgba(75,75,75,1);
+  padding: 10px;
+  text-align: center;
+  color: rgba(255,255,255,1);
+}
+div.gallery {
+  border: 1px rgba(255,255,255,1);
+}
+
+div.gallery:hover {
+  border: 1px solid rgba(55,55,55,1);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+}
+        @media only screen and (max-width: 700px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
